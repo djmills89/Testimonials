@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
 
     --black: #121212;
@@ -5,6 +10,7 @@
     --white: #fff;
     --grey-100: #e7eaee;
     --grey-200: #cfcfcf;
+    --grey-300: #a3aab4;
     --grey-400: #676d7e;
     --grey-500: #48556a;
     --purple-50: #ede4ff;
@@ -36,6 +42,19 @@ html {
 body {
     font-family: var(--ff-family);
     font-weight: var(--fw-medium);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f5f6;
+}
+
+main {
+    display: grid;
+    gap: var(--space-400);
+    justify-content: center;
+    margin-inline: var(--space-400);
+    align-items: center;
+    margin-block: var(--space-500);
 }
 
 .text-preset-1 {
@@ -57,4 +76,48 @@ body {
 .text-preset-4 {
     font-size: var(--fs-3);
     line-height: var(--lh-tight);
+}
+
+.bg-purple {
+    background-color: var(--purple-500);
+}
+
+.bg-mid-grey {
+    background-color: var(--grey-500);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-light-purple {
+    color: var(--purple-50);
+}
+
+.color-light-grey {
+    color: var(--grey-100);
+}
+
+.color-mid-light-grey {
+    color: var(--grey-200);
+}
+
+.color-mid-grey {
+    color: var(--grey-300);
+}
+
+.color-mid-dark-grey {
+    color: var(--grey-400);
+}
+
+.color-dark-grey {
+    color: var(--grey-500);
 }

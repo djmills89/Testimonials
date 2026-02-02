@@ -1,6 +1,26 @@
-.card {}
-.profile {}
-.profile__name {}
-.profile__graduate {}
-.card__title {}
-.card__testimonial {}
+.card {
+    border-radius: var(--space-100);
+    padding: var(--space-400);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-200);
+    max-width: 31rem;
+    box-shadow: 40px 40px 30px 0 rgba(0, 0, 0, 0.15)
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: var(--space-200);
+}
+
+.profile__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile__image {
+    border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
+}
