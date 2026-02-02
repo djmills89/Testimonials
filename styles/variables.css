@@ -1,0 +1,60 @@
+:root {
+
+    --black: #121212;
+    --dark-blue: #19202D;
+    --white: #fff;
+    --grey-100: #e7eaee;
+    --grey-200: #cfcfcf;
+    --grey-400: #676d7e;
+    --grey-500: #48556a;
+    --purple-50: #ede4ff;
+    --purple-300: #a775f1;
+    --purple-500: #733fc8;
+
+    --ff-family: 'Barlow Semi Condensed', sans-serif;
+    --fs-1: 2rem;
+    --fs-2: 1.3rem;
+    --fs-3: 1.1rem;
+    --fw-semi-bold: 600;
+    --fw-medium: 500;
+    --lh-loose: 1.4;
+    --lh-medium: 1.2;
+    --lh-tight: 1.1;
+
+    --space-500: 4rem;
+    --space-400: 3.2rem;
+    --space-300: 2.4rem;
+    --space-200: 1.6rem;
+    --space-100: 0.8rem;
+    --space-50: 0.4rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--ff-family);
+    font-weight: var(--fw-medium);
+}
+
+.text-preset-1 {
+    font-size: var(--fs-1);
+    font-weight: var(--fw-semi-bold);
+    line-height: var(--lh-medium);
+}
+
+.text-preset-2 {
+    font-size: var(--fs-2);
+    line-height: var(--lh-tight);
+}
+
+.text-preset-3 {
+    font-size: var(--fs-2);
+    line-height: var(--lh-loose);
+}
+
+.text-preset-4 {
+    font-size: var(--fs-3);
+    line-height: var(--lh-tight);
+}
